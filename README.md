@@ -1,4 +1,4 @@
-# shadow-manipulation-lab
+# lab
 C'de pointer (işaretçi) kullanarak bir değişkenin değerini ismiyle değil, doğrudan bellek adresiyle değiştirdiğim ufak bir çalışma.
 
 Değişken ismini hiç kullanmadan, doğrudan adresine gidip orodaki veriyi manipüle etmek. Pointer mantığını ve belleğin alt seviyesini anlamak için yazdım.
