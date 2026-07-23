@@ -11,6 +11,14 @@ Değişken ismini hiç kullanmadan, doğrudan adresine gidip orodaki veriyi mani
 
 Format Belirleyici: Bellek adresini ekrana basarken %d kullanmaya çalıştım. Adreslerin onluk tabanda değil, 16'lık tabanda olduğunu ve %p kullanmam gerektiğini öğrendim.
 
-Çalıştırma
-gcc manipulator.c -o manipulator
-./manipulator
+Adım adım:
+
+gcc manipulator.c -o manipulator — C dosyasını derle, çıktıyı manipulator isimli executable'a yaz
+./manipulator — programı çalıştır
+
+Eğer tek satırda çalıştırmak istersen:
+
+bash
+gcc manipulator.c -o manipulator && ./manipulator
+
+(&& ile birinci komut başarılı olursa ikincisi çalışır)
